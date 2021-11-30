@@ -1,6 +1,6 @@
 <template>
     <b-row class="mb-2">
-        <b-col cols="4"> {{ todo.text }} </b-col>
+        <b-col cols="4" class="todoItem__text"> {{ todo.text }} </b-col>
         <b-col cols="2"> {{ todo.done }} </b-col>
         <b-col>
             <b-button variant="primary" @click="goToUpdateTodo"> Editar </b-button>
